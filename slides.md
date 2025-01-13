@@ -26,26 +26,21 @@ layout: intro
 background: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80'
 ---
 
-# Imagine a World...
+# Have you ever felt...
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div v-click class="bg-white/10 backdrop-blur-md p-4 rounded-lg">
-    <h3 class="text-xl font-bold mb-4">What if...</h3>
-    <ul class="space-y-2 text-left">
-      <li>🤔 J.K. Rowling fans could legally write and profit from Harry Potter stories?</li>
-      <li>🌟 Game of Thrones could have multiple official endings?</li>
-      <li>💫 Star Wars fans could own and trade original character stories?</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-white/10 backdrop-blur-md p-4 rounded-lg">
-    <h3 class="text-xl font-bold mb-4">Current Reality</h3>
-    <ul class="space-y-2 text-left">
-      <li>❌ Disney suing kindergartens for Spider-Man murals</li>
-      <li>❌ Fan fiction writers can't monetize their work</li>
-      <li>❌ Authors losing rights to their own characters</li>
-    </ul>
-  </div>
+<div class="mt-8 space-y-6">
+    <div v-click class="bg-white/10 backdrop-blur-md p-6 rounded-lg">
+       <h3 class="text-xl font-bold mb-4 text-red-500">The Frustration of Unfair Contracts?</h3>
+       <p class="text-left">Imagine pouring your heart and soul into a story, only to see a publisher take all the rights for a pittance. Have you heard of authors who create entire worlds but lose control of their own creations? It's a soul-crushing reality for too many talented writers.</p>
+    </div>
+    <div v-click class="bg-white/10 backdrop-blur-md p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-4 text-red-500">The Pain of Missed Opportunities?</h3>
+        <p class="text-left">Think of the countless amazing fan works that exist in the shadows. Brilliant stories, incredible characters, all created by passionate fans, but legally unable to profit or receive credit for their creativity. What potential is lost when creativity is stifled?</p>
+    </div>
+    <div v-click class="bg-white/10 backdrop-blur-md p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-4 text-red-500">The Fear of Creative Death?</h3>
+       <p class="text-left">Consider a world where stories become sterile, controlled by corporate machines with a singular focus on profit. Where is the magic, the risk, the innovation that comes from a diverse community of creators? Is it possible that we're suffocating the next generation of storytelling?</p>
+   </div>
 </div>
 
 ---
@@ -56,17 +51,7 @@ layout: default
 
 <div class="grid grid-cols-2 gap-8 mt-8">
   <div v-click class="bg-white/10 backdrop-blur-md p-4 rounded-lg">
-    <h3 class="text-xl font-bold mb-4">Famous Controversies</h3>
-    <ul class="space-y-2 text-left text-sm">
-      <li>🔥 George R.R. Martin vs Fan Fiction</li>
-      <li>⚡ 50 Shades: From Twilight fanfic to legal battle</li>
-      <li>🧙‍♂️ Tolkien Estate's aggressive copyright enforcement</li>
-      <li>🦸‍♂️ Marvel/DC crushing indie creators</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-white/10 backdrop-blur-md p-4 rounded-lg">
-    <h3 class="text-xl font-bold mb-4">Creator Pain Points</h3>
+    <h3 class="text-xl font-bold mb-4">The Creator's Struggle</h3>
     <ul class="space-y-2 text-left text-sm">
       <li>💔 "My character was stolen by the publisher"</li>
       <li>💸 "Made millions for them, got pennies myself"</li>
@@ -74,26 +59,49 @@ layout: default
       <li>⛓️ "Locked into unfair contracts"</li>
     </ul>
   </div>
-</div>
-
-<div v-click class="mt-8 bg-white/10 backdrop-blur-md p-4 rounded-lg">
-  <h3 class="text-xl font-bold mb-4">The Numbers</h3>
-  <div class="grid grid-cols-3 gap-4 text-center">
-    <div>
-      <div class="text-4xl font-bold text-purple-400">$145B</div>
-      <div class="text-sm">Publishing Market</div>
-    </div>
-    <div>
-      <div class="text-4xl font-bold text-purple-400">2.2M</div>
-      <div class="text-sm">Fan Fiction Writers</div>
-    </div>
-    <div>
-      <div class="text-4xl font-bold text-purple-400">$40B</div>
-      <div class="text-sm">NFT Market Potential</div>
-    </div>
+  
+  <div v-click class="bg-white/10 backdrop-blur-md p-4 rounded-lg">
+    <h3 class="text-xl font-bold mb-4">The Fan's Frustration</h3>
+    <ul class="space-y-2 text-left text-sm">
+      <li>❌ "I created amazing fan fiction but can't share it legally"</li>
+      <li>❌ "I contribute to my favorite universe, but I get nothing in return"</li>
+      <li>❌ "Why do corporations own creativity?"</li>
+    </ul>
   </div>
 </div>
 
+<div class="mt-8 v-click bg-white/10 backdrop-blur-md p-4 rounded-lg">
+  <h3 class="text-xl font-bold mb-4">The Question</h3>
+  <p class="text-sm">
+    "Why are creators and fans left out of the rewards, while corporations profit billions from the worlds we love?"
+  </p>
+</div>
+
+---
+layout: default
+---
+
+# The Numbers Tell the Story 📊
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 text-center">
+  <div v-click>
+    <div class="text-5xl font-bold text-purple-400">$145B</div>
+    <div class="text-sm mt-2">Publishing Market</div>
+    <p class="text-xs mt-2">A massive industry dominated by corporations, leaving little for creators.</p>
+  </div>
+  
+  <div v-click>
+    <div class="text-5xl font-bold text-purple-400">2.2M</div>
+    <div class="text-sm mt-2">Fan Fiction Writers</div>
+    <p class="text-xs mt-2">Millions of fans write stories but can't monetize their creativity.</p>
+  </div>
+  
+  <div v-click>
+    <div class="text-5xl font-bold text-purple-400">$40B</div>
+    <div class="text-sm mt-2">NFT Market Potential</div>
+    <p class="text-xs mt-2">New technologies like NFTs can empower creators to own and profit from their work.</p>
+  </div>
+</div>
 ---
 layout: default
 ---
